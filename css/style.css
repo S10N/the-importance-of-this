@@ -1,0 +1,18 @@
+#container{
+    direction: flex; /*makes a flexbox*/
+    flex-flow: row wrap; /*layout rows and wrap them*/
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+}
+
+.card{
+    flex: 1;/*makes controlable with flexbox*/
+    display: flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
